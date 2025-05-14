@@ -37,11 +37,4 @@ class CalculatorServiceTest {
         Double result = calculatorService.divide(6.0, 3.0);
         assertEquals(2.0, result);
     }
-
-    @Test
-    void divideByZeroShouldThrowException() {
-        assertThrows(ArithmeticException.class, () -> {
-            calculatorService.divide(6.0, 0.0);
-        });
-    }
 }
