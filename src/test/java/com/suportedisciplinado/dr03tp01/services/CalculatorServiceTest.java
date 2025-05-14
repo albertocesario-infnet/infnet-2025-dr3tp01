@@ -16,8 +16,8 @@ class CalculatorServiceTest {
 
     @Test
     void add() {
-        Double result = calculatorService.add(5.0, 3.0);
-        assertEquals(8.0, result);
+        Double result = calculatorService.add(6.0, 4.0);
+        assertEquals(10.0, result);
     }
 
     @Test
