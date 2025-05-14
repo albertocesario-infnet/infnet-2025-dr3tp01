@@ -10,3 +10,6 @@ git branch -M main
 git remote add origin git@github.com:albertocesario-infnet/infnet-2025-dr3tp01.git
 git push -u origin main
 ```
+
+### Teste de alteração
+Faça uma alteração em README.md e comprove (com print) que o workflow não foi executado.
